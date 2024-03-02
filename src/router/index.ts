@@ -1,4 +1,5 @@
 import HomeView from '@/views/HomeView.vue'
+import TasksView from '@/views/TasksView.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 
 const router = createRouter({
@@ -7,6 +8,10 @@ const router = createRouter({
     {
       path: '/',
       component: HomeView
+    },
+    {
+      path: '/tasks',
+      component: TasksView
     }
   ]
 })
